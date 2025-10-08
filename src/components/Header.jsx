@@ -9,7 +9,7 @@ export default function Header() {
         </div>
         <div>
           <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-gray-900">
-            Hello World App
+            My Awesome App
           </h1>
           <p className="text-sm text-gray-500">A tiny, beautiful starter built with React + Tailwind</p>
         </div>
