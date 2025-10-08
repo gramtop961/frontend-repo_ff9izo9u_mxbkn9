@@ -8,11 +8,13 @@ function App() {
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-purple-50">
       <Header />
       <Hero />
-      <div className="w-full max-w-3xl mx-auto px-6">
-        <div className="rounded-xl border border-dashed border-gray-300 bg-white/60 backdrop-blur p-4 text-center text-gray-700">
+
+      <main className="w-full max-w-3xl mx-auto px-6">
+        <section className="rounded-xl border border-dashed border-gray-300 bg-white/60 backdrop-blur p-4 text-center text-gray-700">
           Simple Message: Hello, World!
-        </div>
-      </div>
+        </section>
+      </main>
+
       <Counter />
       <Footer />
     </div>
