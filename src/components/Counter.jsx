@@ -4,7 +4,7 @@ export default function Counter() {
   const [count, setCount] = useState(0)
 
   return (
-    <section className="w-full max-w-3xl mx-auto px-6 py-8">
+    <section id="counter" className="w-full max-w-3xl mx-auto px-6 py-8">
       <div className="rounded-2xl bg-gradient-to-tr from-indigo-50 to-fuchsia-50 border border-indigo-100 p-8">
         <div className="flex items-center justify-between gap-4">
           <div>
