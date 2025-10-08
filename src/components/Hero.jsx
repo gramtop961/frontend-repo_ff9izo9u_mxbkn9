@@ -2,6 +2,9 @@ export default function Hero() {
   return (
     <section className="w-full max-w-3xl mx-auto px-6 py-8">
       <div className="rounded-2xl bg-white/70 backdrop-blur shadow-lg border border-gray-200 p-8">
+        <span className="inline-block mb-4 px-3 py-1 text-xs font-medium text-indigo-700 bg-indigo-50 rounded-full">
+          Hello World
+        </span>
         <h2 className="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-3">
           Welcome to your new app
         </h2>
